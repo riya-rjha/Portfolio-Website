@@ -130,7 +130,7 @@ main {
     /* font-family: 'Roboto Slab', serif;*/
     font-family: 'Bitter', serif;
     font-style: italic;
-   
+
 }
 
 .content-left button:hover {
@@ -202,7 +202,59 @@ footer {
     padding-bottom: 4px;
 }
 
-#hired, #learn{
+#hired,
+#learn {
     text-decoration: none;
 }
 
+@media screen and (max-width: 700px) {
+    nav {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    main {
+        text-align: center;
+        margin: auto;
+        display: block;
+        padding-left: 150px;
+    }
+
+    .content-right img {
+        margin-top: 65px;
+        padding-left: 13px;
+    }
+
+    footer {
+        padding-left: 15px;
+    }
+
+    .wholeMedia {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin: auto;
+        padding-left: 200px;
+    }
+
+    .texts {
+        display: none;
+    }
+
+    #codes img {
+        width: 450px;
+        height: 350px;
+        margin-left: 425px;
+        margin-top: 30px;
+    }
+
+    .content-left {
+        width: 100%;
+    }
+
+    footer {
+        padding-left: 15px;
+        margin-left: 370px;
+    }
+}
